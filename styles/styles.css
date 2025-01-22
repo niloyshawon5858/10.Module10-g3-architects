@@ -43,14 +43,14 @@
   border: none;
 }
 
-.text-primary{
-    color: rgb(255, 144, 14);
+.text-primary {
+  color: rgb(255, 144, 14);
 }
 
 .section-title {
-    font-size: 2.8rem;
-    font-weight: 700;
-  }
+  font-size: 2.8rem;
+  font-weight: 700;
+}
 
 main {
   max-width: 1152px;
@@ -60,8 +60,6 @@ main {
 main > section {
   margin-top: 130px;
 }
-
-
 
 /* ===================== Header section Styles ===================== */
 /* navbar and banner */
@@ -124,47 +122,41 @@ main > section {
   max-width: 424px;
 }
 
-
 #quick-list {
   font-weight: 500;
 }
 
+/* ===================== Some Facts section Styles ===================== */
+.facts-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
 
+.fact-card {
+  border: 1px solid rgb(255, 144, 14);
+  border-radius: 8px;
+  width: 240px;
+  height: 240px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
 
+.fact-number {
+  font-size: 2.8rem;
+  font-weight: 600;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.fact-name {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-top: 10px;
+}
+.fact-description {
+  max-width: 542px;
+}
 
 /* ===================== responsive media query ====================== */
 
